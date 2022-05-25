@@ -1,0 +1,57 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button {
+    padding: 0;
+    /* border: none; */
+    font: inherit;
+    /* color: inherit; */
+    /* background-color: transparent; */
+}
+
+
+body {
+    display: flex;
+    overflow: hidden;
+    background-image: url(BG.png);
+    justify-content: center;
+}
+
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 700px;
+    background-color: #1d1d1d;
+    
+}
+
+.cont input {
+    width: 100%;
+    background-color: #1d1d1d;
+    border: none;
+    color: white;
+}
+
+.cont input:focus {
+    border: none;
+}
+
+.cont input:active {
+    border: none;
+}
+
+.cont button {
+    margin: 3px 0px 3px 10px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+}
+
+.cont :nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
